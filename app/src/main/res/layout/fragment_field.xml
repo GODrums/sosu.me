@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FieldPage">
+
+    <ImageView
+        android:id="@+id/viewRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/field_text"
+        app:srcCompat="@drawable/ic_sudoku_field"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"/>
+    <com.example.sudokusolver.ProximaView
+        android:id="@+id/field_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/viewRow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/fieldDesc"
+        android:textSize="20sp"
+        android:textColor="@color/colorReverse"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:singleLine="false" />
+</android.support.constraint.ConstraintLayout>

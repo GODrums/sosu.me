@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorReverse</color>
+    <color name="colorPrimaryDark">@color/colorBackground</color>
+    <color name="colorAccent">#FF0266</color>
+    <color name="colorGold">#D4AF37</color>
+    <color name="colorGoldDark">#8d721e</color>
+    <color name="colorButton">#FFDE03</color>
+    <color name="colorButtonLight">#0336FF</color>
+    <color name="colorButtonDark">#6200EE</color>
+    <color name="colorBackground">#FFFFFFFF</color>
+    <color name="colorReverse">#000000</color>
+    <color name="button_pressed">@color/colorGoldDark</color>
+    <color name="button_default">@color/colorBackground</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="colorDots">#03DAC5</color>
+    <color name="textColorPrimary">@color/colorReverse</color>
+</resources>

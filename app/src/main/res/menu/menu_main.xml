@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="none"
+        android:id="@+id/group_main">
+        <item
+            android:id="@+id/completeNav"
+            android:title="@string/complete"
+            android:icon="@drawable/ic_done_all"/>
+        <item
+            android:id="@+id/stepNav"
+            android:title="@string/step"
+            android:icon="@drawable/ic_done"/>
+        <item
+            android:id="@+id/rulesNav"
+            android:title="@string/rules"
+            android:icon="@drawable/ic_rules"/>
+    </group>
+    <group
+        android:checkableBehavior="none"
+        android:id="@+id/group_manage">
+        <item
+            android:id="@+id/settingNav"
+            android:title="@string/settings"
+            android:icon="@drawable/ic_settings" />
+        <item
+            android:id="@+id/aboutNav"
+            android:title="@string/about"
+            android:icon="@drawable/ic_info"/>
+    </group>
+</menu>

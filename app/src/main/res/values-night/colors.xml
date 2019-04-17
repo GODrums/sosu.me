@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#A5264F</color>
+    <color name="colorButton">#3e2723</color>
+    <color name="colorBackground">#000000</color>
+    <color name="colorReverse">#CCCCCC</color>
+    <color name="colorDots">#00413b</color>
+</resources>

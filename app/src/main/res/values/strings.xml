@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SoSu.Me</string>
+    <string name="header">SOSU.ME</string>
+    <string name="sub_header1">Solving Sudokus.</string>
+    <string name="sub_header2">Made easy.</string>
+    <string name="sub_header">Solving Sudokus. Made easy.</string>
+    <string name="complete">COMPLETE</string>
+    <string name="step">NEXT STEP</string>
+    <string name="rules">RULES</string>
+    <string name="settings">SETTINGS</string>
+    <string name="open">OPEN</string>
+    <string name="close">CLOSE</string>
+    <string name="targeting">TARGETING</string>
+    <string name="enterPic">ENTER BY PICTURE</string>
+    <string name="columnDesc">Each column in a Sudoku contains every number from 1 to 9 once. The order can vary.</string>
+    <string name="rowDesc">Each row contains every number from 1 to 9 once. The order can vary.</string>
+    <string name="fieldDesc">Additionally every square is made of the number 1 to 9 as well. There are no doubles allowed in here either.</string>
+    <string name="about">ABOUT</string>
+</resources>

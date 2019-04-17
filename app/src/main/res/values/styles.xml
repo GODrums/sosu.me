@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BaseTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorButton</item>
+        <item name="android:background">@color/colorBackground</item>
+        <item name="android:textColor">@color/colorReverse</item>
+        <item name="android:textColorPrimary">@color/colorReverse</item>
+        <item name="android:navigationBarColor">@color/colorBackground</item>
+    </style>
+    <style name="SolvingTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorBackground</item>
+        <item name="android:background">@color/colorBackground</item>
+        <item name="android:textColor">@color/colorReverse</item>
+        <item name="android:navigationBarColor">@color/colorBackground</item>
+    </style>
+    <style name="checkBoxStyle" parent="Theme.AppCompat.DayNight">
+        <item name="colorControlActivated">@color/colorButton</item>
+    </style>
+</resources>
